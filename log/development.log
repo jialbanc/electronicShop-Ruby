@@ -21,3 +21,1299 @@ Migrating to CreateItems (20140217212701)
   [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140217212701"]]
   [1m[36m (98.0ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/clients/1" for 127.0.0.1 at 2014-02-17 17:45:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 40ms
+
+SyntaxError (c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: syntax error, unexpected $end, expecting keyword_end
+... 8 } , :message => "Ingrese mínimo 8 caracteres"
+...                               ^):
+  app/controllers/clients_controller.rb:67:in `set_client'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/clients/" for 127.0.0.1 at 2014-02-17 17:45:16 -0500
+Processing by ClientsController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: syntax error, unexpected $end, expecting keyword_end
+... 8 } , :message => "Ingrese mínimo 8 caracteres"
+...                               ^):
+  app/controllers/clients_controller.rb:7:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/clients/" for 127.0.0.1 at 2014-02-17 17:45:19 -0500
+Processing by ClientsController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: syntax error, unexpected $end, expecting keyword_end
+... 8 } , :message => "Ingrese mínimo 8 caracteres"
+...                               ^):
+  app/controllers/clients_controller.rb:7:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-17 17:45:28 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2014-02-17 17:45:33 -0500
+Processing by ClientsController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: syntax error, unexpected $end, expecting keyword_end
+... 8 } , :message => "Ingrese mínimo 8 caracteres"
+...                               ^):
+  app/controllers/clients_controller.rb:7:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2014-02-17 17:46:22 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientsController#index as HTML
+Completed 500 Internal Server Error in 38ms
+
+SyntaxError (c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: invalid multibyte char (US-ASCII)
+c:/Users/Jimmy/git/electronicShop-Ruby/app/models/client.rb:6: syntax error, unexpected $end, expecting keyword_end
+... 8 } , :message => "Ingrese mínimo 8 caracteres"
+...                               ^):
+  app/controllers/clients_controller.rb:7:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/clients" for 127.0.0.1 at 2014-02-17 17:48:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientsController#index as HTML
+Completed 500 Internal Server Error in 52ms
+
+ArgumentError (Unknown validator: 'MessageValidator'):
+  app/models/client.rb:6:in `<class:Client>'
+  app/models/client.rb:1:in `<top (required)>'
+  app/controllers/clients_controller.rb:7:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (100.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/clients" for 127.0.0.1 at 2014-02-17 17:50:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientsController#index as HTML
+Completed 500 Internal Server Error in 47ms
+
+ArgumentError (You need to supply at least one validation):
+  app/models/client.rb:9:in `<class:Client>'
+  app/models/client.rb:1:in `<top (required)>'
+  app/controllers/clients_controller.rb:7:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (79.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/clients" for 127.0.0.1 at 2014-02-17 17:53:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 1436ms (Views: 1388.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 17:53:37 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 17:53:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 17:53:38 -0500
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2014-02-17 17:53:40 -0500
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.erb (87.0ms)
+  Rendered clients/new.html.erb within layouts/application (99.0ms)
+Completed 200 OK in 118ms (Views: 116.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/clients" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "client"=>{"user"=>"pepit", "passw"=>"1234", "nombre"=>"pepito", "apellido"=>"pro", "birthday(1i)"=>"2014", "birthday(2i)"=>"2", "birthday(3i)"=>"17", "direccion"=>"str"}, "commit"=>"Create Client"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mClient Exists (1.0ms)[0m  SELECT 1 AS one FROM "clients" WHERE "clients"."user" = 'pepit' LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mrollback transaction[0m
+  Rendered clients/_form.html.erb (9.0ms)
+  Rendered clients/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 128ms (Views: 24.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 17:54:00 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started POST "/clients" for 127.0.0.1 at 2014-02-17 17:58:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "client"=>{"user"=>"pepit", "passw"=>"1234", "nombre"=>"pepito", "apellido"=>"pro", "birthday(1i)"=>"2014", "birthday(2i)"=>"2", "birthday(3i)"=>"17", "direccion"=>"str"}, "commit"=>"Create Client"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mClient Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "clients" WHERE "clients"."user" = 'pepit' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+ERROR: compiling _app_views_clients__form_html_erb___454452619_38536128 RAISED c:/Users/Jimmy/git/electronicShop-Ruby/app/views/clients/_form.html.erb:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+... f.label :password confirmation );@output_buffer.safe_append...
+...                               ^
+Function body:           def _app_views_clients__form_html_erb___454452619_38536128(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "clients/_form";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append=  form_for(@client) do |f| @output_buffer.safe_append='
+';   if @client.errors.any? 
+@output_buffer.safe_append='    <div id="error_explanation">
+      <h2>';@output_buffer.append=( pluralize(@client.errors.count, "error") );@output_buffer.safe_append=' prohibited this client from being saved:</h2>
+
+      <ul>
+';       @client.errors.full_messages.each do |msg| 
+@output_buffer.safe_append='        <li>';@output_buffer.append=( msg );@output_buffer.safe_append='</li>
+';       end 
+@output_buffer.safe_append='      </ul>
+    </div>
+';   end 
+@output_buffer.safe_append='
+  <div class="field">
+    ';@output_buffer.append=( f.label :user );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :user );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :password );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :passw );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :password confirmation );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :passw_confirmation );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :nombre );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :nombre );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :apellido );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :apellido );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :birthday );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.date_select :birthday );@output_buffer.safe_append='
+  </div>
+  <div class="field">
+    ';@output_buffer.append=( f.label :direccion );@output_buffer.safe_append='<br>
+    ';@output_buffer.append=( f.text_field :direccion );@output_buffer.safe_append='
+  </div>
+  <div class="actions">
+    ';@output_buffer.append=( f.submit );@output_buffer.safe_append='
+  </div>
+'; end 
+@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `module_eval'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/template.rb:299:in `compile'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/template.rb:248:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/template.rb:236:in `compile!'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/template.rb:142:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/partial_renderer.rb:306:in `render_partial'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/partial_renderer.rb:279:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/partial_renderer.rb:278:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+c:/Users/Jimmy/git/electronicShop-Ruby/app/views/clients/new.html.erb:3:in `_app_views_clients_new_html_erb___704460110_38493684'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/template.rb:143:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:161:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/template.rb:141:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/template_renderer.rb:17:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:42:in `render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_view/renderer/renderer.rb:23:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:127:in `_render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:97:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:16:in `render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:40:in `render'
+c:/Users/Jimmy/git/electronicShop-Ruby/app/controllers/clients_controller.rb:34:in `block (2 levels) in create'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/mime_responds.rb:191:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/mime_responds.rb:191:in `respond_to'
+c:/Users/Jimmy/git/electronicShop-Ruby/app/controllers/clients_controller.rb:29:in `create'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:189:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rendering.rb:10:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:413:in `_run__468342445__process_action__callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rescue.rb:29:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `block in instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/notifications.rb:159:in `instrument'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.2/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/base.rb:136:in `process'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/abstract_controller/rendering.rb:44:in `process'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:195:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_controller/metal.rb:231:in `block in action'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:48:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:71:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `each'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/journey/router.rb:59:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/routing/route_set.rb:680:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/conditionalget.rb:35:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/flash.rb:241:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.2/lib/active_record/query_cache.rb:36:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-4.0.2/lib/active_record/migration.rb:369:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:373:in `_run__421142474__call__callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/callbacks.rb:80:in `run_callbacks'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:38:in `call_app'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `block in call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:25:in `tagged'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/tagged_logging.rb:67:in `tagged'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.2/lib/rails/rack/logger.rb:20:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activesupport-4.0.2/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/static.rb:64:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.2/lib/rails/engine.rb:511:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.0.2/lib/rails/application.rb:97:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered clients/_form.html.erb (74.0ms)
+  Rendered clients/new.html.erb within layouts/application (91.0ms)
+Completed 500 Internal Server Error in 244ms
+
+ActionView::Template::Error (c:/Users/Jimmy/git/electronicShop-Ruby/app/views/clients/_form.html.erb:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+... f.label :password confirmation );@output_buffer.safe_append...
+...                               ^):
+    20:     <%= f.text_field :passw %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :password confirmation %><br>
+    24:     <%= f.text_field :passw_confirmation %>
+    25:   </div>
+    26:   <div class="field">
+  app/views/clients/new.html.erb:3:in `_app_views_clients_new_html_erb___704460110_38493684'
+  app/controllers/clients_controller.rb:34:in `block (2 levels) in create'
+  app/controllers/clients_controller.rb:29:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (36.0ms)
+
+
+Started POST "/clients" for 127.0.0.1 at 2014-02-17 17:58:24 -0500
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "client"=>{"user"=>"pepit", "passw"=>"1234", "nombre"=>"pepito", "apellido"=>"pro", "birthday(1i)"=>"2014", "birthday(2i)"=>"2", "birthday(3i)"=>"17", "direccion"=>"str"}, "commit"=>"Create Client"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mClient Exists (0.0ms)[0m  SELECT 1 AS one FROM "clients" WHERE "clients"."user" = 'pepit' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered clients/_form.html.erb (56.0ms)
+  Rendered clients/new.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 173ms (Views: 167.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:25 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:31 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:32 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:32 -0500
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2014-02-17 17:58:33 -0500
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.erb (13.0ms)
+  Rendered clients/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.erb (6.0ms)
+  Rendered clients/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 17:58:44 -0500
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.erb (8.0ms)
+  Rendered clients/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:32 -0500
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2014-02-17 17:59:43 -0500
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.erb (8.0ms)
+  Rendered clients/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 23ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:43 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:43 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:43 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 17:59:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:44 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:44 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:44 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 17:59:44 -0500
+
+
+Started POST "/clients" for 127.0.0.1 at 2014-02-17 18:00:08 -0500
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "client"=>{"user"=>"test", "passw"=>"1234", "passw_confirmation"=>"1234", "nombre"=>"pop", "apellido"=>"pasd", "birthday(1i)"=>"2014", "birthday(2i)"=>"2", "birthday(3i)"=>"17", "direccion"=>"asd"}, "commit"=>"Create Client"}
+Unpermitted parameters: passw_confirmation
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mClient Exists (1.0ms)[0m  SELECT 1 AS one FROM "clients" WHERE "clients"."user" = 'test' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered clients/_form.html.erb (7.0ms)
+  Rendered clients/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:08 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:08 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:08 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:08 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:09 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:09 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:09 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:09 -0500
+
+
+Started POST "/clients" for 127.0.0.1 at 2014-02-17 18:00:26 -0500
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "client"=>{"user"=>"test", "passw"=>"1234", "passw_confirmation"=>"1234", "nombre"=>"pop", "apellido"=>"pasd", "birthday(1i)"=>"2014", "birthday(2i)"=>"2", "birthday(3i)"=>"17", "direccion"=>"asd"}, "commit"=>"Create Client"}
+Unpermitted parameters: passw_confirmation
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mClient Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "clients" WHERE "clients"."user" = 'test' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  Rendered clients/_form.html.erb (7.0ms)
+  Rendered clients/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 32ms (Views: 23.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:26 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:26 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:27 -0500
+
+
+Started POST "/clients" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "client"=>{"user"=>"test", "passw"=>"12345678", "passw_confirmation"=>"12345678", "nombre"=>"pop", "apellido"=>"pasd", "birthday(1i)"=>"2014", "birthday(2i)"=>"2", "birthday(3i)"=>"17", "direccion"=>"asd"}, "commit"=>"Create Client"}
+Unpermitted parameters: passw_confirmation
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mClient Exists (0.0ms)[0m  SELECT 1 AS one FROM "clients" WHERE "clients"."user" = 'test' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered clients/_form.html.erb (6.0ms)
+  Rendered clients/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 26ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:00:35 -0500
+
+
+Started POST "/clients" for 127.0.0.1 at 2014-02-17 18:01:37 -0500
+Processing by ClientsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "client"=>{"user"=>"test", "passw"=>"12345678", "passw_confirmation"=>"12345678", "nombre"=>"pop", "apellido"=>"pasd", "birthday(1i)"=>"2014", "birthday(2i)"=>"2", "birthday(3i)"=>"17", "direccion"=>"asd"}, "commit"=>"Create Client"}
+Unpermitted parameters: passw_confirmation
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mClient Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "clients" WHERE "clients"."user" = 'test' LIMIT 1[0m
+  [1m[35mSQL (12.0ms)[0m  INSERT INTO "clients" ("apellido", "birthday", "created_at", "direccion", "nombre", "passw", "updated_at", "user") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["apellido", "pasd"], ["birthday", Mon, 17 Feb 2014], ["created_at", Mon, 17 Feb 2014 23:01:37 UTC +00:00], ["direccion", "asd"], ["nombre", "pop"], ["passw", "12345678"], ["updated_at", Mon, 17 Feb 2014 23:01:37 UTC +00:00], ["user", "test"]]
+  [1m[36m (69.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/clients/1
+Completed 302 Found in 108ms (ActiveRecord: 82.0ms)
+
+
+Started GET "/clients/1" for 127.0.0.1 at 2014-02-17 18:01:37 -0500
+Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered clients/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:01:37 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:01:37 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:01:37 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:01:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:01:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:01:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:01:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:01:38 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:01:38 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:01:38 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:01:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:01:38 -0500
+
+
+Started GET "/clients" for 127.0.0.1 at 2014-02-17 18:01:44 -0500
+Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients"[0m
+  Rendered clients/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2014-02-17 18:04:17 -0500
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients"
+  Rendered clients/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 31ms (Views: 22.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:17 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:17 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:17 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:17 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:18 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:18 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:18 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:18 -0500
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2014-02-17 18:04:19 -0500
+Processing by ClientsController#new as HTML
+  Rendered clients/_form.html.erb (7.0ms)
+  Rendered clients/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2014-02-17 18:04:25 -0500
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 44ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:25 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:25 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:25 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:25 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:26 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:26 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:26 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:26 -0500
+
+
+Started GET "/items/new" for 127.0.0.1 at 2014-02-17 18:04:28 -0500
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (12.0ms)
+  Rendered items/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2014-02-17 18:04:50 -0500
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "item"=>{"iditem"=>"AC500", "nombreitem"=>"ipod", "descripcionitem"=>"Cool", "color"=>"rojo", "valor"=>"asd"}, "commit"=>"Create Item"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mItem Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "items" WHERE "items"."iditem" = 'AC500' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "items" ("color", "created_at", "descripcionitem", "iditem", "nombreitem", "updated_at", "valor") VALUES (?, ?, ?, ?, ?, ?, ?)  [["color", "rojo"], ["created_at", Mon, 17 Feb 2014 23:04:50 UTC +00:00], ["descripcionitem", "Cool"], ["iditem", "AC500"], ["nombreitem", "ipod"], ["updated_at", Mon, 17 Feb 2014 23:04:50 UTC +00:00], ["valor", 0.0]]
+  [1m[36m (153.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/items/1
+Completed 302 Found in 168ms (ActiveRecord: 155.0ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2014-02-17 18:04:50 -0500
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (1.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:50 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:04:51 -0500
+
+
+Started GET "/items/1/edit" for 127.0.0.1 at 2014-02-17 18:04:58 -0500
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered items/_form.html.erb (4.0ms)
+  Rendered items/edit.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/items/1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "item"=>{"iditem"=>"AC500", "nombreitem"=>"ipod", "descripcionitem"=>"Cool", "color"=>"rojo", "valor"=>"5"}, "commit"=>"Update Item", "id"=>"1"}
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mItem Exists (0.0ms)[0m  SELECT 1 AS one FROM "items" WHERE ("items"."iditem" = 'AC500' AND "items"."id" != 1) LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "items" SET "valor" = ?, "updated_at" = ? WHERE "items"."id" = 1[0m  [["valor", 5.0], ["updated_at", Mon, 17 Feb 2014 23:05:03 UTC +00:00]]
+  [1m[35m (102.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/items/1
+Completed 302 Found in 113ms (ActiveRecord: 103.0ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered items/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:03 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:04 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:04 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:04 -0500
+
+
+Started GET "/items/1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:52 -0500
+
+
+Started GET "/items/1/edit" for 127.0.0.1 at 2014-02-17 18:05:55 -0500
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered items/_form.html.erb (4.0ms)
+  Rendered items/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/items/1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "item"=>{"iditem"=>"AC500", "nombreitem"=>"ipod", "descripcionitem"=>"Cool", "color"=>"rojo", "valor"=>"asd"}, "commit"=>"Update Item", "id"=>"1"}
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mItem Exists (1.0ms)[0m  SELECT 1 AS one FROM "items" WHERE ("items"."iditem" = 'AC500' AND "items"."id" != 1) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered items/_form.html.erb (6.0ms)
+  Rendered items/edit.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 59ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:05:58 -0500
+
+
+Started PATCH "/items/1" for 127.0.0.1 at 2014-02-17 18:08:49 -0500
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "item"=>{"iditem"=>"AC500", "nombreitem"=>"ipod", "descripcionitem"=>"Cool", "color"=>"rojo", "valor"=>"asd"}, "commit"=>"Update Item", "id"=>"1"}
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mItem Exists (1.0ms)[0m  SELECT 1 AS one FROM "items" WHERE ("items"."iditem" = 'AC500' AND "items"."id" != 1) LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  Rendered items/_form.html.erb (6.0ms)
+  Rendered items/edit.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 75ms (Views: 23.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:49 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:49 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:49 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:50 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:50 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:50 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:50 -0500
+
+
+Started PATCH "/items/1" for 127.0.0.1 at 2014-02-17 18:08:55 -0500
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pOHbTAalGYKPbYaxZnKos8NSSTCceD9hHmqCaHCWO0=", "item"=>{"iditem"=>"AC500", "nombreitem"=>"ipod", "descripcionitem"=>"Cool", "color"=>"rojo", "valor"=>"5.6"}, "commit"=>"Update Item", "id"=>"1"}
+  [1m[35mItem Load (1.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mItem Exists (0.0ms)[0m  SELECT 1 AS one FROM "items" WHERE ("items"."iditem" = 'AC500' AND "items"."id" != 1) LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "items" SET "valor" = ?, "updated_at" = ? WHERE "items"."id" = 1[0m  [["valor", 5.6], ["updated_at", Mon, 17 Feb 2014 23:08:55 UTC +00:00]]
+  [1m[35m (79.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/items/1
+Completed 302 Found in 91ms (ActiveRecord: 81.0ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2014-02-17 18:08:55 -0500
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:55 -0500
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/items.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-17 18:08:56 -0500
+
+
+Started GET "/items" for 127.0.0.1 at 2014-02-17 18:09:00 -0500
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
