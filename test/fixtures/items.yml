@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  iditem: MyString
+  nombreitem: MyString
+  descripcionitem: MyString
+  color: MyString
+  valor: 1.5
+
+two:
+  iditem: MyString
+  nombreitem: MyString
+  descripcionitem: MyString
+  color: MyString
+  valor: 1.5

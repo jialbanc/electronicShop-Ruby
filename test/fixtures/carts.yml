@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idcart: MyString
+  numitem: 1
+  total: 1.5
+  purchased: false
+
+two:
+  idcart: MyString
+  numitem: 1
+  total: 1.5
+  purchased: false
