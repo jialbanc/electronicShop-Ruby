@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>ElectronicShop</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <title>Electronic Shop</title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<nav class='navbar navbar-default' role="navigation">
+	<div class='navbar-header'>
+			<%= link_to 'Inicio' , root_path , class:'navbar-brand'%>
+			<%= link_to 'Items' , items_path , class:'navbar-brand'%>
+			
+	</div>
+	<p class="navbar-text pull-right">Signed in as <a href="#" class="navbar-link">Mark Otto</a></p>
+</nav>
 
 <%= yield %>
 
