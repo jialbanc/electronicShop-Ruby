@@ -4,6 +4,5 @@ class Client < ActiveRecord::Base
 	validates :user, :presence => true, :uniqueness => true
 	
 	validates :passw, :presence => true, :length => { :minimum => 8, :message => "Ingrese minimo 8 caracteres" } 
-	
-	
+
 end

@@ -3,9 +3,9 @@
 <table>
   <thead>
     <tr>
-      <th>Iditem</th>
+      <th>Code</th>
       <th>Nombreitem</th>
-      <th>Descripcionitem</th>
+      <th>Descripcion</th>
       <th>Color</th>
       <th>Valor</th>
       <th></th>
@@ -17,9 +17,9 @@
   <tbody>
     <% @items.each do |item| %>
       <tr>
-        <td><%= item.iditem %></td>
+        <td><%= item.code %></td>
         <td><%= item.nombreitem %></td>
-        <td><%= item.descripcionitem %></td>
+        <td><%= item.descripcion %></td>
         <td><%= item.color %></td>
         <td><%= item.valor %></td>
         <td><%= link_to 'Show', item %></td>

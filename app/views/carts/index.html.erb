@@ -3,7 +3,6 @@
 <table>
   <thead>
     <tr>
-      <th>Idcart</th>
       <th>Numitem</th>
       <th>Total</th>
       <th>Purchased</th>
@@ -16,7 +15,6 @@
   <tbody>
     <% @carts.each do |cart| %>
       <tr>
-        <td><%= cart.idcart %></td>
         <td><%= cart.numitem %></td>
         <td><%= cart.total %></td>
         <td><%= cart.purchased %></td>

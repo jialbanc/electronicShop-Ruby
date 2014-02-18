@@ -69,6 +69,6 @@ class CartsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def cart_params
-      params.require(:cart).permit(:idcart, :numitem, :total, :purchased)
+      params.require(:cart).permit(:numitem, :total, :purchased)
     end
 end

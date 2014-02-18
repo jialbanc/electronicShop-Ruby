@@ -11,10 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140217212701) do
+ActiveRecord::Schema.define(version: 20140218010427) do
 
   create_table "carts", force: true do |t|
-    t.string   "idcart"
     t.integer  "numitem"
     t.float    "total"
     t.boolean  "purchased"
@@ -34,9 +33,9 @@ ActiveRecord::Schema.define(version: 20140217212701) do
   end
 
   create_table "items", force: true do |t|
-    t.string   "iditem"
+    t.string   "code"
     t.string   "nombreitem"
-    t.string   "descripcionitem"
+    t.string   "descripcion"
     t.string   "color"
     t.float    "valor"
     t.datetime "created_at"

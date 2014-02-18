@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-ElectronicShop::Application.config.secret_key_base = 'ff3af37d07d7fc2b1dfe8d40c2bb35fbe95aa6192229626a33f4344f6bfed7a638fc05242961e0df27148a998106399f821f7de0a2ed2e01d685eef6b83c9e0b'
+ElectronicShop::Application.config.secret_key_base = 'cafb8ee26659cc55ba171d0180f13b074c82616790f2406dbb20c10a9905192287414d3022aa0f80bf2f53880b3d1c0f4be5155f7661d6d4c2173b6280e12a6c'
