@@ -11,3 +11,12 @@
  *= require_self
  *= require_tree .
  */
+.input-container{
+	width:50%;
+	margin-left:20%;
+	
+}
+
+.titulo-container{
+	margin-left:20%;
+}

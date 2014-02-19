@@ -10,28 +10,36 @@
       </ul>
     </div>
   <% end %>
-
-  <div class="field">
-    <%= f.label :code %><br>
-    <%= f.text_field :code %>
-  </div>
-  <div class="field">
-    <%= f.label :nombre_item %><br>
-    <%= f.text_field :nombreitem %>
-  </div>
-  <div class="field">
-    <%= f.label :descripcion %><br>
-    <%= f.text_field :descripcion %>
-  </div>
-  <div class="field">
-    <%= f.label :color %><br>
-    <%= f.text_field :color %>
-  </div>
-  <div class="field">
-    <%= f.label :valor %><br>
-    <%= f.text_field :valor %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+		<div class="input-container">
+		  <div class="input-group">
+			<span class="input-group-addon">Código:</span>
+			<%= f.text_field :code ,class:"form-control valid" %>
+		  </div>
+		  <br>
+		  <div class="input-group">
+			<span class="input-group-addon">Nombre de dispositivo:</span>
+			<%= f.text_field :nombreitem ,class:"form-control valid" %>
+		  </div>
+		  <br>
+		  <div class="input-group">
+			<span class="input-group-addon">Descripcion:</span>
+			<%= f.text_field :descripcion ,class:"form-control valid" %>
+		  </div>
+		  <br>
+		  <div class="input-group">
+			<span class="input-group-addon">Color:</span>
+			<%= f.text_field :color ,class:"form-control valid" %>
+		  </div>
+		  <br>
+		  <div class="input-group">
+			<span class="input-group-addon">Valor:</span>
+			<%= f.text_field :valor ,class:"form-control valid" %>
+			<span class="input-group-addon">$</span>
+		  </div>
+		  <br>
+		  
+			<%= f.submit %>
+		</div>
+	  
+  
 <% end %>
