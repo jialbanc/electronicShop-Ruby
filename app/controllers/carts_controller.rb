@@ -1,6 +1,12 @@
 class CartsController < ApplicationController
   before_action :set_cart, only: [:show, :edit, :update, :destroy]
+  
+  def add_to_cart
+	@cart = find_cart
+	item = Item.find(params[:id])
+	@cart.add_item(item)
 
+  end
   # GET /carts
   # GET /carts.json
   def index

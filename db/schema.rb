@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140218010427) do
+ActiveRecord::Schema.define(version: 20140219003554) do
 
   create_table "carts", force: true do |t|
     t.integer  "numitem"
@@ -20,6 +20,14 @@ ActiveRecord::Schema.define(version: 20140218010427) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "carts_items", id: false, force: true do |t|
+    t.integer "cart_id"
+    t.integer "item_id"
+  end
+
+  add_index "carts_items", ["cart_id"], name: "index_carts_items_on_cart_id"
+  add_index "carts_items", ["item_id"], name: "index_carts_items_on_item_id"
 
   create_table "clients", force: true do |t|
     t.string   "user"
@@ -41,5 +49,15 @@ ActiveRecord::Schema.define(version: 20140218010427) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "users", force: true do |t|
+    t.string   "email",            null: false
+    t.string   "crypted_password", null: false
+    t.string   "salt",             null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
 
 end

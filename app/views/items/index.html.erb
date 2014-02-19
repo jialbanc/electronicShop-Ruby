@@ -13,6 +13,8 @@
 				<h2>Precio: $<%= item.valor  %></h1>
 				</div>
 				<div class='btn-group'>
+					<% cart = Cart.find(1) %>
+					<%= link_to 'Add to Cart', cart,  method: :add_to_cart , class:'btn btn-default' %>
 					<%= link_to 'Show', item , class:'btn btn-default' %>
 					<%= link_to 'Edit', edit_item_path(item) , class:'btn btn-default' %>
 					<%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } ,class:'btn btn-default' %>

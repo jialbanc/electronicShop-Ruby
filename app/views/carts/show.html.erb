@@ -1,19 +1,28 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Numitem:</strong>
-  <%= @cart.numitem %>
-</p>
+<h1>Your Cart</h1>
+<ul>
+	<% for item in @cart.items %>
+		<div id='items'>
+			<div class='panel panel-info'>
+				<div class='panel-heading'>
+					<h2><%= item.nombreitem %></h2>
+				</div>
+				<div class='panel-body'>
+				<h3>Codigo: <%= item.code  %></h3>
+				<h2><%= item.descripcion  %></h1>
+				<h2>Color: <%= item.color  %></h1>
+				<h2>Precio: $<%= item.valor  %></h1>
+				</div>
+				
+			</div>
+			
+		</div>
+	<% end %>
+</ul>
 
-<p>
-  <strong>Total:</strong>
-  <%= @cart.total %>
-</p>
 
-<p>
-  <strong>Purchased:</strong>
-  <%= @cart.purchased %>
-</p>
+<div class='btn-group'>
+		<%= link_to 'Añadir Items', items_path, class:'btn btn-default' %>
+</div>
 
-<%= link_to 'Edit', edit_cart_path(@cart) %> |
-<%= link_to 'Back', carts_path %>
