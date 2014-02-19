@@ -7980,6 +7980,7 @@ Processing by CartsController#show as HTML
   Rendered carts/show.html.erb within layouts/application (5.0ms)
   [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 1]]
 Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 
 
 Started GET "/" for 127.0.0.1 at 2014-02-19 14:29:58 -0500
