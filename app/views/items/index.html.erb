@@ -1,4 +1,4 @@
-<h1>Listing items</h1>
+<h1>Lista de dispositivos</h1>
 
 	<% @items.each do |item| %>
 		<div id='items'>
@@ -7,14 +7,14 @@
 					<h2><%= item.nombreitem %></h2>
 				</div>
 				<div class='panel-body'>
-				<h3>Codigo: <%= item.code  %></h3>
+				<h3>Código: <%= item.code  %></h3>
 				<h2><%= item.descripcion  %></h1>
 				<h2>Color: <%= item.color  %></h1>
 				<h2>Precio: $<%= item.valor  %></h1>
 				</div>
 				<div class='btn-group'>
 					<% cart = Cart.find(1) %>
-					<%= link_to 'Añadir al Carrito', cart,  method: :add_to_cart , class:'btn btn-default' %>
+					<%= link_to 'Añadir al Carrito', cart , :action => :add_to_cart, :id => item , class:'btn btn-default' %>
 					<%= link_to 'Mostrar', item , class:'btn btn-default' %>
 					<%= link_to 'Editar', edit_item_path(item) , class:'btn btn-default' %>
 					<%= link_to 'Eliminar', item, method: :delete, data: { confirm: 'Are you sure?' } ,class:'btn btn-default' %>

@@ -1,8 +1,12 @@
 class CartsController < ApplicationController
   before_action :set_cart, only: [:show, :edit, :update, :destroy]
   
+  def find_cart
+	session[:cart] ||= Cart.new
+  end
+  
   def add_to_cart
-	@cart = find_cart
+	@cart = Cart.first
 	item = Item.find(params[:id])
 	@cart.add_item(item)
 

@@ -12,6 +12,8 @@
 		<h2>Precio: $<%= @item.valor  %></h1>
 		</div>
 		<div class='btn-group'>
+			<% cart = Cart.find(2) %>
+			<%= link_to 'Añadir al Carrito', cart , :action => :add_to_cart, :id => @item , class:'btn btn-default' %>
 			<%= link_to 'Editar', edit_item_path(@item), class:'btn btn-default' %>
 			<%= link_to 'Atrás', items_path, class:'btn btn-default' %>
 		</div>
